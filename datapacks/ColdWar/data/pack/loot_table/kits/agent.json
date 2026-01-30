@@ -1,0 +1,16 @@
+{
+    "pools": [
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/weapons/knife"}]},
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/weapons/submachine_gun"}]},
+
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/pill"}]},
+
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/grenades/smoke_grenade"}]},
+        
+        {"rolls": 10,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/mine_glow"}]},
+        
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/invisibility_potion"}]},
+        
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/armor/chestplate"}]}
+    ]
+}

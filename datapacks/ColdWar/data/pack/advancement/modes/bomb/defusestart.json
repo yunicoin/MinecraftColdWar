@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "team": "2",
+          "nbt": "{Tags:[bomb]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pack:modes/bomb/defuze_event"
+  }
+}

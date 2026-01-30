@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/sapper_defuse"}]},
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/weapons/pistol"}]},
+
+        {"rolls": 2,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/pill"}]},
+
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/mine"}]},
+        
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/armor/helmet_up"}]},
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/armor/chestplate_up"}]},
+
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/arrow"}]}
+    ]
+}

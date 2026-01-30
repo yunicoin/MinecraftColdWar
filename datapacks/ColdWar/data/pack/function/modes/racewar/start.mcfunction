@@ -1,0 +1,37 @@
+scoreboard players set @e[tag=game] timer 60000
+bossbar set minecraft:game players @a
+bossbar set minecraft:game visible true
+function pack:clear
+tag @a[team=1] add team1
+tag @a[team=2] add team2
+gamemode spectator @a
+
+
+
+scoreboard players set @e[tag=game] team1ammo 0
+scoreboard players set @e[tag=game] team1auto 0
+scoreboard players set @e[tag=game] team1chestarmor 0
+scoreboard players set @e[tag=game] team1helmet 0
+scoreboard players set @e[tag=game] team1knife 0
+scoreboard players set @e[tag=game] team1medical 0
+scoreboard players set @e[tag=game] team1mina 0
+scoreboard players set @e[tag=game] team1pils 0
+scoreboard players set @e[tag=game] team1smoke 0
+scoreboard players set @e[tag=game] team1sniper 0
+scoreboard players set @e[tag=game] team1socer 0
+
+scoreboard players set @e[tag=game] team2ammo 0
+scoreboard players set @e[tag=game] team2auto 0
+scoreboard players set @e[tag=game] team2chestarmor 0
+scoreboard players set @e[tag=game] team2helmet 0
+scoreboard players set @e[tag=game] team2knife 0
+scoreboard players set @e[tag=game] team2medical 0
+scoreboard players set @e[tag=game] team2mina 0
+scoreboard players set @e[tag=game] team2pils 0
+scoreboard players set @e[tag=game] team2smoke 0
+scoreboard players set @e[tag=game] team2sniper 0
+scoreboard players set @e[tag=game] team2socer 0
+
+tellraw @a ["",{"text":"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n\u041f\u0440\u0430\u0432\u0438\u043b\u0430 \u0438\u0433\u0440\u044b:\n\n\u0426\u0435\u043b\u044c \u0438\u0433\u0440\u044b:","color":"green"},{"text":"\n"},{"text":"- \u0417\u0430\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u0431\u043e\u043b\u044c\u0448\u0435 \u043e\u0447\u043a\u043e\u0432, \u0447\u0435\u043c \u0434\u0440\u0443\u0433\u0430\u044f \u043a\u043e\u043c\u043d\u0434\u0430","color":"yellow"},{"text":"\n"},{"text":"\u041a\u0430\u043a \u043f\u043e\u043b\u0443\u0447\u0430\u0442\u044c \u0431\u044b\u043b\u043b\u044b:","color":"green"},{"text":"\n"},{"text":"- \u041e\u0447\u043a\u0438 \u043d\u0430\u0447\u0438\u0441\u043b\u044f\u044e\u0442\u0441\u044f \u0437\u0430 \u0443\u0431\u0438\u0439\u0441\u0442\u0432\u043e \u0438\u0433\u0440\u043e\u043a\u043e\u0432 \u0432\u0440\u0430\u0436\u0435\u0441\u043a\u043e\u0439 \u043a\u043e\u043c\u0430\u043d\u0434\u044b","color":"yellow"},{"text":"\n"},{"text":"\u0423\u043b\u0443\u0447\u0448\u0435\u043d\u0438\u044f:","color":"green"},{"text":"\n"},{"text":"\u0415\u0441\u0442\u044c 2 \u0442\u0438\u043f\u0430 \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u0438\u0439: ","color":"yellow"},{"text":"\u041c\u0410\u041b\u042b\u0415","bold":true,"color":"yellow"},{"text":" (\u043b\u0438\u0441\u0442\u043e\u0447\u0435\u043a) \u0438","color":"yellow"},{"text":" \u0411\u041e\u041b\u042c\u0428\u0418\u0415","bold":true,"color":"yellow"},{"text":" (\u0441\u0443\u043d\u0434\u0443\u043a)\n- \u0427\u0442\u043e\u0431\u044b \u0443\u043b\u0443\u0447\u0448\u0438\u0442\u044c \u043d\u0430\u0431\u043e\u0440 \u043e\u0440\u0443\u0436\u0438\u0439 \u0432 \u0432\u0430\u0448\u0435\u0439 \u043a\u043e\u043c\u0430\u043d\u0434\u044b \u043d\u0443\u0436\u043d\u043e \u043e\u0442\u043d\u0435\u0441\u0442\u0438 \u043b\u0438\u0441\u0442\u043e\u0447\u0435\u043a/\u0441\u0443\u043d\u0434\u0443\u043a \u043a \u0441\u0435\u0431\u0435 \u043d\u0430 \u0440\u0435\u0441\u043f\u0430\u0432\u043d\n- \u0421\u0443\u043d\u0434\u0443\u043a\u0438 \u043c\u043e\u0436\u043d\u043e \u043d\u0430\u0439\u0442\u0438 \u0432 ","color":"yellow"},{"text":"\u0431\u0443\u043d\u043a\u0435\u0440\u0435","underlined":true,"color":"yellow"},{"text":" (","color":"yellow"},{"text":"\u0434\u043b\u044f \u0421\u0438\u043d\u0435\u0439 \u043a\u043e\u043c\u0430\u043d\u0434\u044b","color":"blue"},{"text":") \u0438 \u0432 ","color":"yellow"},{"text":"\u043b\u0435\u0434\u044f\u043d\u043e\u0439 \u043f\u0435\u0449\u0435\u0440\u0435","underlined":true,"color":"yellow"},{"text":" (","color":"yellow"},{"text":"\u0434\u043b\u044f \u041a\u0440\u0430\u0441\u043d\u043e\u0439 \u043a\u043e\u043c\u0430\u043d\u0434\u044b","color":"red"},{"text":")","color":"yellow"},{"text":"\n"},{"text":"- \u041b\u0438\u0441\u0442\u043e\u0447\u043a\u0438 \u043c\u043e\u0436\u043d\u043e \u043d\u0430\u0439\u0442\u0438 \u043d\u0430 ","color":"yellow"},{"text":"\u0432\u0435\u0440\u0442\u043e\u043b\u0435\u0442\u043d\u043e\u0439 \u043f\u043b\u043e\u0449\u0430\u0434\u043a\u0435","underlined":true,"color":"yellow"},{"text":" (","color":"yellow"},{"text":"\u0434\u043b\u044f \u0421\u0438\u043d\u0435\u0439 \u043a\u043e\u043c\u0430\u043d\u0434\u044b","color":"blue"},{"text":") \u0438 \u0432 ","color":"yellow"},{"text":"\u0432\u0435\u0440\u0442\u043e\u043b\u0435\u0442\u0435","underlined":true,"color":"yellow"},{"text":" (","color":"yellow"},{"text":"\u0434\u043b\u044f \u041a\u0440\u0430\u0441\u043d\u043e\u0439 \u043a\u043e\u043c\u0430\u043d\u0434\u044b","color":"red"},{"text":")","color":"yellow"},{"text":"\n"},{"text":"- \u0414\u0440\u043e\u043f \u0438\u0437 \u0441\u0443\u043d\u0434\u0443\u043a/\u043b\u0438\u0441\u0442\u043e\u0447\u043a\u043e\u0432 - ","color":"yellow"},{"text":"\u0421\u041b\u0423\u0427\u0410\u0419\u041d\u042b\u0419","bold":true,"color":"yellow"},{"text":"\n- \u0415\u0441\u0442\u044c \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u044c, \u0447\u0442\u043e \u0438\u0437 \u0441\u0443\u043d\u0434\u0443\u043a\u0430/\u043b\u0438\u0441\u0442\u0438\u043a\u0430 \u043d\u0438\u0447\u0435\u0433\u043e \u043d\u0435 \u0432\u044b\u043f\u0430\u0434\u0435\u0442","color":"yellow"},{"text":"\n"},{"text":"\u041f\u0440\u0438\u043c\u0435\u0447\u0430\u043d\u0438\u044f:","color":"green"},{"text":"\n"},{"text":"- \u041c\u043e\u0436\u043d\u043e \u043f\u0440\u0438\u043d\u0435\u0441\u0442\u0438 \u0441\u0440\u0430\u0437\u0443 \u043b\u0438\u0441\u0442\u0438\u043a \u0438 \u0441\u0443\u043d\u0434\u0443\u043a \u0438 \u0434\u0440\u043e\u043f \u0431\u0443\u0434\u0435\u0442 \u0438\u0437\u043c\u0435\u043d\u0435\u043d \u0437\u0430 \u043e\u0431\u0430 \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u0430\n- \u0418\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0432 \u043d\u0430\u0431\u043e\u0440\u0435 \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u043d\u0430 \u0432\u0441\u044e \u043a\u043e\u043c\u0430\u043d\u0434\u0443\n- \u041d\u0435\u043b\u044c\u0437\u044f \u043f\u0440\u0438\u043d\u0435\u0441\u0442\u0438 \u043e\u0434\u043d\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e \u0434\u0432\u0430 \u043b\u0438\u0441\u0442\u0438\u043a\u0430 \u0438\u043b\u0438 \u0434\u0432\u0430 \u0441\u0443\u043d\u0434\u0443\u043a\u0430","color":"yellow"},{"text":"\n\n"},{"text":"-> ","color":"gold","clickEvent":{"action":"run_command","value":"/advancement grant @s only pack:learning"}},{"text":"\u042f \u043e\u0437\u043d\u0430\u043a\u043e\u043c\u0438\u043b\u0441\u044f \u0441 \u043f\u0440\u0430\u0432\u0438\u043b\u0430\u043c\u0438 \u0438 \u043d\u0435 \u0431\u0443\u0434\u0443 \u0436\u0443\u043b\u044c\u043d\u0438\u0447\u0430\u0442\u044c","underlined":true,"color":"gold","clickEvent":{"action":"open_url","value":"https://www.google.com/recaptcha/api2/demo"}},{"text":" <-","color":"gold","clickEvent":{"action":"run_command","value":"/advancement grant @s only pack:learning"}},{"text":"\n\n"},{"text":"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-","color":"green"},{"text":"\n "}]
+
+execute as @a at @s run playsound minecraft:gungame.start block @s ~ ~ ~ 10

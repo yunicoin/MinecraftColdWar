@@ -1,0 +1,105 @@
+{
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_helmet": "2022-01-20 20:44:50 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2022-01-20 20:32:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2022-01-20 20:39:39 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2022-01-20 20:39:39 +0300"
+    },
+    "done": true
+  },
+  "pack:main": {
+    "criteria": {
+      "requirement": "2022-01-20 20:28:54 +0300"
+    },
+    "done": true
+  },
+  "pack:first_kill": {
+    "criteria": {
+      "requirement": "2022-01-20 20:34:43 +0300"
+    },
+    "done": true
+  },
+  "pack:part_hp": {
+    "criteria": {
+      "requirement": "2022-01-20 20:34:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-01-20 20:39:39 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2022-01-20 20:39:39 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2022-01-20 20:44:50 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2022-01-20 20:35:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2022-01-20 20:34:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2022-01-20 20:39:39 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2022-01-20 20:34:38 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-01-20 20:39:39 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_helmet": "2022-01-20 20:44:50 +0300"
+    },
+    "done": true
+  },
+  "pack:real_is_my": {
+    "criteria": {
+      "requirement": "2022-01-20 20:31:44 +0300"
+    },
+    "done": true
+  },
+  "DataVersion": 2730
+}

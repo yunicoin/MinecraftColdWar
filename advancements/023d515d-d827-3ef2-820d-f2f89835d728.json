@@ -1,0 +1,15 @@
+{
+  "pack:clown": {
+    "criteria": {
+      "requirement": "2022-02-21 17:07:57 +0300"
+    },
+    "done": true
+  },
+  "pack:main": {
+    "criteria": {
+      "requirement": "2022-02-21 17:08:12 +0300"
+    },
+    "done": true
+  },
+  "DataVersion": 2730
+}

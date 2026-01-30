@@ -1,8 +1,0 @@
-{
-    "pools": [
-        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/weapons/katana"}]},
-        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/grenades/smoke_grenade"}]},
-        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/grenades/smoke_grenade"}]},
-        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/grenades/smoke_grenade"}]}
-    ]
-}

@@ -1,6 +1,0 @@
-{
-    "pools": [
-        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/weapons/paw"}]},
-        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/monster_blind"}]}
-    ]
-}

@@ -1,8 +1,0 @@
-{
-    "pools": [
-        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/weapons/axe"}]},
-
-        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/first_aid_kit"}]},
-        {"rolls": 2,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/pill"}]}
-    ]
-}

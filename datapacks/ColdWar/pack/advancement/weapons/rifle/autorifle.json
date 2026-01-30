@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "weapon": "autorifle"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pack:weapon/rifle/autorifle/shot"
+  }
+}

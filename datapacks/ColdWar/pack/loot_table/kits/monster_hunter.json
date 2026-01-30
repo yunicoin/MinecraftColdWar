@@ -1,0 +1,14 @@
+{
+    "pools": [
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/weapons/assault_rifle"}]},
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/weapons/knife"}]},
+
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/first_aid_kit"}]},
+        {"rolls": 2,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/pill"}]},
+
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/grenades/frag_grenade"}]},
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/grenades/molotov_grenade"}]},
+
+        {"rolls": 6,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/arrow"}]}
+    ]
+}

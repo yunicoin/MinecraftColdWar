@@ -1,0 +1,16 @@
+{
+    "pools": [
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/weapons/knife"}]},
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/weapons/expansive_rifle"}]},
+
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/pill"}]},
+
+        
+        {"rolls": 4,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/decoy"}]},
+
+        
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/armor/chestplate"}]},
+
+        {"rolls": 1,"entries": [{"type": "loot_table","weight": 1,"name": "pack:items/arrow"}]}
+    ]
+}

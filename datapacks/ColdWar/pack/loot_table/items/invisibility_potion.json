@@ -1,0 +1,34 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{HideFlags:32,CustomModelData:1,CustomPotionEffects:[{Id:14b,Amplifier:255b,Duration:300,ShowParticles:0b}],CustomPotionColor:52479}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "translate": "cw.item.invisibility_potion",
+                    "color": "light_purple",
+                    "italic": "false"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pack:items/grenades/smoke_grenade",
+          "weight": 1
+        }
+      ]
+    },
+    "rolls"
+    :
+    1,
+    "entries"
+    :
+    [
+      {
+        "type": "minecraft:item",
+        "name": "pack:items/first_aid_kit",
+        "weight": 1
+      }
+    ]
+},
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pack:items/pill",
+          "weight": 1
+        }
+      ]
+    },
+] }

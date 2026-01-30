@@ -1,0 +1,2 @@
+setblock -4 5 -58 minecraft:air
+data modify block -4 4 -56 Text3 set value '{"translate":"cw.signs.enabled","color":"green","clickEvent":{"action":"run_command","value":"function pack:settings/inventorydrop/disable"}}'

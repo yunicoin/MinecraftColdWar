@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:arrow,tag=shotgun] at @s run execute store result entity @s damage int 2 run scoreboard players remove @s timer 1
+execute as @e[type=minecraft:arrow,tag=shotgun,scores={timer=..0}] at @s run kill @s

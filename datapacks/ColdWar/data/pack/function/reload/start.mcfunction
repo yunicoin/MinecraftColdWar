@@ -1,0 +1,3 @@
+tellraw @a [{"text": "[ColdWar Datapack]  ", "color": "yellow","hoverEvent":{"action":"show_text","value":"шо?"}}, {"text": "Перезагрузка", "color": "red","hoverEvent":{"action":"show_text","value":"гыы"}}]
+setblock -3 4 -30 minecraft:command_block[conditional=false,facing=south]{Command:"execute as @a at @s run kick @a datapack reload",CustomName:'{"text":"@"}',LastExecution:34484233L,SuccessCount:0,TrackOutput:0b,UpdateLastExecution:1b,auto:1b,conditionMet:1b,powered:0b} destroy
+schedule function pack:reload/second_reload 1t
